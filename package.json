@@ -1,0 +1,29 @@
+{
+  "name": "Crucible Dao Token ",
+  "version": "1.0.0",
+  "description": "Crucible Test Token ERC20 template",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "author": "julio vera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://"
+  },
+  "homepage": "https://",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.1",
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "chai": "^4.3.4",
+    "eth-gas-reporter": "^0.2.22"
+  }
+}
