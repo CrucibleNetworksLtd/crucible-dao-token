@@ -23,9 +23,14 @@ Cualquier cosa no duden en consultarme julio@waytoodigital.com
 
 Como hacer el deploy y mintear 1000 tokens
 
-npx truffle console --network matic 
- let token = await CrucibleTest.deployed()
- await token.name()
- let supply = await token.totalSupply()
- supply.toNumber()
- await token.mint("0xeE93c086A8346D19321e99E2CB7C1a7a7eBE2ba2","1000000000000000000000")
+npx truffle console --network matic
+
+let token = await CrucibleTest.deployed()
+
+await token.name()
+
+let supply = await token.totalSupply()
+
+supply.toNumber()
+
+await token.mint("0xeE93c086A8346D19321e99E2CB7C1a7a7eBE2ba2","1000000000000000000000")
